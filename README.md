@@ -1,1 +1,3 @@
-# Sonho de Consumo Notebook da Sam
+# - Clone 
+
+Modelo página de venda da Samsung
