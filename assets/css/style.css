@@ -60,4 +60,30 @@
     height: 30px;
     margin-left: 30px;
 }
-/*fim - header*/
+/*end - header*/
+
+/*start-section/sections*/
+.sections{
+    width: 1440px;
+    padding: 40px 0px 15px 0px;
+    margin: auto;
+}
+.sections ul {
+    list-style: none;
+    
+    display: flex;
+}
+.sections li {
+    color: #ccc;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.sections li a{
+    color: #bbb;
+    font-size: 13px;
+    text-decoration: none;
+}
+.sections li a:hover{
+    text-decoration: underline;
+}
+/*end-section/sections*/
