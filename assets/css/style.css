@@ -62,7 +62,7 @@
 }
 /*end - header*/
 
-/*start-section/sections*/
+/*start-section sections*/
 .sections{
     width: 1440px;
     padding: 40px 0px 15px 0px;
@@ -86,4 +86,45 @@
 .sections li a:hover{
     text-decoration: underline;
 }
-/*end-section/sections*/
+/*end-section sections*/
+
+/*start-section info_product black*/
+.info_product {
+    width: 1440px;
+    height: 45px;
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 600;
+}
+.info_product .area_name p{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.info_product .area_price{
+    display: flex;
+    align-items: center;
+}
+.info_product .area_price .price{
+    font-size: 30px;
+    margin-right: 40px;
+}
+.info_product .area_price .button button {
+    width: 210px;
+    height: 45px;
+    border:none;
+    background-color: rgb(9, 121, 226);
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.info_product .area_price .button button:hover{
+    background-color: rgb(9, 78, 226);
+}
+/*end-section info_product black*/
