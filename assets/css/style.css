@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*header*/
+.header{
+    width: 1440px;
+    height: 80px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.left, 
+.right{
+    display: flex;
+    align-items: center;
+}
+.left .area_logo{
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.left ul,
+.right .area_promo ul{
+    list-style: none;
+    display: flex;
+}
+.left li {
+    margin: 0px 10px;
+}
+.left li a, 
+.right .area_promo li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    font-size: 13px;
+    padding:8px;
+}
+.left li a:hover,
+.right .area_promo li a:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+.right .area_promo {
+    margin-right: 30px;
+}
+.right .area_login ul{
+    list-style: none;
+    display: flex;
+    background-color: red;
+    justify-content: flex-end;
+}
+.right .area_login img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+/*fim - header*/
