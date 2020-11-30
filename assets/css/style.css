@@ -90,7 +90,7 @@
 /*end-section sections*/
 
 /*start-section info_product black*/
-.info_product_section{
+.info_product_price{
     max-width: 1440px;
     height: 69px;
     margin: auto;
@@ -136,3 +136,63 @@
     background-color: rgb(9, 78, 226);
 }
 /*end-section info_product black*/
+
+/*start image product_info_geral*/
+.img_product_plus {
+    padding: 0px 24px;
+    max-width: 1440px;
+    margin: auto;
+
+}
+.img_product_plus img {
+    max-width: 100%;
+}
+/*end image product_info_geral*/
+
+/*area infor product*/
+.info_product_section {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0px 24px;
+}
+.info_product_section .area_description {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0px;
+
+}
+.info_product_section .title h1{
+    font-size: 54px;
+    line-height: 50px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.info_product_section .subtitle h4 {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 30px 0px 21px;
+}
+.info_product_section .description {
+    padding: 0px 10px;
+}
+.info_product_section .description p {
+    font-size: 18px;
+    line-height:25px;
+    text-align: center;
+    padding-top: 15px;
+}
+.info_product_section .area_img {
+    max-width: 100%;
+    text-align: center;
+}
+.info_product_section .area_img img {
+    max-width: 1200px;
+    height: 950px;
+}
+
+/*materal*/
+.info_product_section .area_img.material img {
+    height: 1096px;
+}
+/*end-material*/
